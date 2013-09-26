@@ -9,3 +9,5 @@ Assuming vowels `a,e,i,o,u`:
 5. Write a method that returns whether a given letter is a vowel without checking equality, or the use of `if`, using the array of vowels
 
 *hint: remember that every line of ruby code has a return value, and that a method will return the result of the last operation*
+
+Bonus: think about the reasons why you might use one of the above methods over another
