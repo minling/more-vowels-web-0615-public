@@ -11,5 +11,3 @@ Assuming vowels `a,e,i,o,u`:
 7. Write a method that will evaluate a string and return the ordinal position (index) of the string where the first vowel is found, if any
 
 *hint: remember that every line of ruby code has a return value, and that a method will return the result of the last operation*
-
-Bonus: think about the reasons why you might use one of the above methods over another
