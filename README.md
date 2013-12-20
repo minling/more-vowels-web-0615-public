@@ -1,3 +1,9 @@
+---
+  languages: ruby
+---
+
+# More Vowels
+
 Let's go back to the exercise where we determined what is and isn't a vowel. With ruby, there's always more than one way to do something and get the same result.
 
 Assuming vowels `a,e,i,o,u`:
