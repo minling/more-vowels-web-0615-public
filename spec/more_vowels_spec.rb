@@ -2,8 +2,8 @@ require 'spec_helper'
 
 describe 'More Vowels' do
 
-  let(:vowels) { %w(a,e,i,o,u) }
-  let(:consonants) { %w(y,c,d) }
+  let(:vowels) { %w(a e i o u) }
+  let(:consonants) { %w(y c d) }
 
   let(:word_with_vowel) { "taco" }
   let(:word_without_vowel) { "why" }
@@ -11,13 +11,13 @@ describe 'More Vowels' do
   describe '#vowels_with_if_elsif' do
     it 'should return true for vowels' do
       vowels.each do |vowel|
-        expect(vowels_with_if_elsif(vowel)).to eq(true)
+        expect(vowels_with_if_elsif(vowel)).to be true
       end
     end
 
     it 'should return false for consonants' do
       consonants.each do |consonant|
-        expect(vowels_with_if_elsif(consonant)).to eq(false)
+        expect(vowels_with_if_elsif(consonant)).to be false
       end
     end
   end
@@ -25,13 +25,13 @@ describe 'More Vowels' do
   describe '#vowels_with_case' do
     it 'should return true for vowels' do
       vowels.each do |vowel|
-        expect(vowels_with_case(vowel)).to eq(true)
+        expect(vowels_with_case(vowel)).to be true
       end
     end
 
     it 'should return false for consonants' do
       consonants.each do |consonant|
-        expect(vowels_with_case(consonant)).to eq(false)
+        expect(vowels_with_case(consonant)).to be false
       end
     end
   end
@@ -39,13 +39,13 @@ describe 'More Vowels' do
   describe '#vowels_with_if_single_line' do
     it 'should return true for vowels' do
       vowels.each do |vowel|
-        expect(vowels_with_if_single_line(vowel)).to eq(true)
+        expect(vowels_with_if_single_line(vowel)).to be true
       end
     end
 
     it 'should return false for consonants' do
       consonants.each do |consonant|
-        expect(vowels_with_if_single_line(consonant)).to eq(false)
+        expect(vowels_with_if_single_line(consonant)).to be_falsey
       end
     end
   end
@@ -53,13 +53,13 @@ describe 'More Vowels' do
   describe '#vowels_with_no_if_or_case' do
     it 'should return true for vowels' do
       vowels.each do |vowel|
-        expect(vowels_with_no_if_or_case(vowel)).to eq(true)
+        expect(vowels_with_no_if_or_case(vowel)).to be true
       end
     end
 
     it 'should return false for consonants' do
       consonants.each do |consonant|
-        expect(vowels_with_no_if_or_case(consonant)).to eq(false)
+        expect(vowels_with_no_if_or_case(consonant)).to be false
       end
     end
   end
@@ -67,13 +67,13 @@ describe 'More Vowels' do
   describe '#vowels_with_array_no_equality_or_if' do
     it 'should return true for vowels' do
       vowels.each do |vowel|
-        expect(vowels_with_array_no_equality_or_if(vowel)).to eq(true)
+        expect(vowels_with_array_no_equality_or_if(vowel)).to be true
       end
     end
 
     it 'should return false for consonants' do
       consonants.each do |consonant|
-        expect(vowels_with_array_no_equality_or_if(consonant)).to eq(false)
+        expect(vowels_with_array_no_equality_or_if(consonant)).to be false
       end
     end
   end
