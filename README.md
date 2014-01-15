@@ -7,7 +7,7 @@
 
 ### Skills: Control Flow, Creativity
 
-Let's go back to the exercise where we determined what is and is not a vowel. With Ruby, there's always more than one way to do something and get the same result. ((TIMTOWTDI)[http://en.wikipedia.org/wiki/There's_more_than_one_way_to_do_it], kids.)
+Let's go back to the exercise where we determined what is and is not a vowel. With Ruby, there's always more than one way to do something and get the same result. ([TIMTOWTDI](http://en.wikipedia.org/wiki/There's_more_than_one_way_to_do_it), kids.)
 
 For the purposes of this exercise, we are assuming the vowels are `a, e, i, o, and u`. Sorry, 'y'.
 
