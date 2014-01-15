@@ -2,6 +2,10 @@ require 'spec_helper'
 
 describe 'More Vowels' do
 
+  # This may look a little weird, but %w(item1 item2 item3) is another way
+  # to instantiate an array. It's equivalent to writing
+  # ["item1", "item2", "item3"]
+
   let(:vowels) { %w(a e i o u) }
   let(:consonants) { %w(y c d) }
 
