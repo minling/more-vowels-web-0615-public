@@ -78,6 +78,20 @@ describe 'More Vowels' do
     end
   end
 
+  describe '#vowels_with_ternary_operator' do
+    it 'should return true for vowels' do
+      vowels.each do |vowel|
+        expect(vowels_with_ternary_operator(vowel)).to be true
+      end
+    end
+
+    it 'should return false for consonants' do
+      consonants.each do |consonant|
+        expect(vowels_with_ternary_operator(consonant)).to be false
+      end
+    end
+  end
+
   describe '#first_vowel' do
     it 'should return the first vowel in a string that contains one' do
       expect(first_vowel(word_with_vowel)).to eq("a")
