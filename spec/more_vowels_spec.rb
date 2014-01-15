@@ -45,7 +45,7 @@ describe 'More Vowels' do
 
     it 'should return false for consonants' do
       consonants.each do |consonant|
-        expect(vowels_with_if_single_line(consonant)).to be_falsey
+        expect(vowels_with_if_single_line(consonant)).to_not be true
       end
     end
   end
