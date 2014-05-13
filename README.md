@@ -1,7 +1,7 @@
 ---
   tags: conditional expressions, control flow, case statements, strings, methods, arrays, timtowtdi
   languages: ruby
-resources: 1
+  resources: 1
 ---
 
 # More Vowels
