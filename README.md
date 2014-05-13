@@ -1,6 +1,7 @@
 ---
   tags: conditional expressions, control flow, case statements, strings, methods, arrays, timtowtdi
   languages: ruby
+resources: 1
 ---
 
 # More Vowels
@@ -30,3 +31,6 @@ For the purposes of this exercise, we are assuming the vowels are `a, e, i, o, a
 8. Write a method that will evaluate a string and return the ordinal position (index) of the string where the first vowel is found, if any.
 
 *Hint: remember that every line of Ruby code has a return value, and that a method will return the result of the last operation.*
+
+## Resources
+* [Learn to Program](http://books.flatironschool.com/books/43) - [7.2 Branching](http://books.flatironschool.com/books/43), page 51
