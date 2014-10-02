@@ -38,20 +38,6 @@ describe 'More Vowels' do
     end
   end
 
-  describe '#vowels_with_if_single_line' do
-    it 'should return true for vowels' do
-      vowels.each do |vowel|
-        expect(vowels_with_if_single_line(vowel)).to be true
-      end
-    end
-
-    it 'should return false for consonants' do
-      consonants.each do |consonant|
-        expect(vowels_with_if_single_line(consonant)).to_not be true
-      end
-    end
-  end
-
   describe '#vowels_with_no_if_or_case' do
     it 'should return true for vowels' do
       vowels.each do |vowel|
