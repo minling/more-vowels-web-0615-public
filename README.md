@@ -24,7 +24,7 @@ For the purposes of this exercise, we are assuming the vowels are `a, e, i, o, a
 
 5. Write a method that returns whether a given letter is a vowel without checking equality, or the use of `if`, using an array of vowels.
 
-6. Write a method that returns weather a given letter is a vower using the ternary operator.
+6. Write a method that returns whether a given letter is a vower using the ternary operator.
 
 7. Write a method that will evaluate a string and return the first vowel found in the string, if any.
 
