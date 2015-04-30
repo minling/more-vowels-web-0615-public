@@ -30,5 +30,3 @@ For the purposes of this exercise, we are assuming the vowels are `a, e, i, o, a
 
 *Hint: remember that every line of Ruby code has a return value, and that a method will return the result of the last operation.*
 
-## Resources
-* [Learn to Program](http://books.flatironschool.com/books/43) - [7.2 Branching](http://books.flatironschool.com/books/43), page 51
